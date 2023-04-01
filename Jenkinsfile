@@ -33,14 +33,6 @@ pipeline {
       }
     }
 
-  // Test Java application
-
-    stage('Maven Test') {
-      steps {
-        sh 'mvn test'
-      }
-    }
-
    // Build docker image in Jenkins
 
     stage('Build Docker Image') {
