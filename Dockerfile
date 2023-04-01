@@ -1,5 +1,5 @@
 #Define your base image
-FROM eclipse-temurin:17-jdk-focal
+FROM java:openjdk-8u111-jdk-alpine
 
 #Maintainer of this image
 LABEL maintainer="Bim"
