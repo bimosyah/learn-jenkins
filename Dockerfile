@@ -7,7 +7,7 @@ LABEL maintainer="Bim"
 #Copying Jar file from target folder
 COPY target/web-services.jar web-services.jar
 
-#Expose app to outer world on this port
+#Expose app to outer world with this port
 EXPOSE 8081
 
 #Run executable with this command
